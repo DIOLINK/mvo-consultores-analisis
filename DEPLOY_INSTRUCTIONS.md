@@ -8,7 +8,14 @@
 3. Hazlo público para GitHub Pages gratuito
 4. NO inicialices con README (ya tenemos uno)
 
-### 2. Subir el Código
+### 2. Instalar Dependencias (Importante)
+```bash
+# En la carpeta del proyecto
+npm install
+```
+Esto genera el archivo `package-lock.json` necesario para GitHub Actions.
+
+### 3. Subir el Código
 ```bash
 # En la carpeta del proyecto
 git init
@@ -19,19 +26,19 @@ git remote add origin https://github.com/[TU-USUARIO]/[NOMBRE-REPO].git
 git push -u origin main
 ```
 
-### 3. Configurar GitHub Pages
+### 4. Configurar GitHub Pages
 1. Ve a tu repositorio en GitHub
 2. Click en **Settings** (pestaña superior)
 3. Scroll hacia abajo hasta **Pages** (sidebar izquierdo)
 4. En **Source**, selecciona **GitHub Actions**
 5. El workflow ya está configurado en `.github/workflows/deploy.yml`
 
-### 4. Activar GitHub Actions
+### 5. Activar GitHub Actions
 1. Ve a la pestaña **Actions** en tu repositorio
 2. Deberías ver el workflow "Deploy to GitHub Pages"
 3. Si no se ejecuta automáticamente, haz un pequeño cambio y push
 
-### 5. Acceder al Sitio
+### 6. Acceder al Sitio
 Una vez desplegado, tu sitio estará disponible en:
 ```
 https://[TU-USUARIO].github.io/[NOMBRE-REPO]/
@@ -62,15 +69,26 @@ Si tienes un dominio personalizado:
 
 ## 🆘 Solución de Problemas
 
+### Error: "Dependencies lock file is not found"
+**Solución:** Ejecuta `npm install` localmente para generar el `package-lock.json`:
+```bash
+npm install
+git add package-lock.json
+git commit -m "Add package-lock.json"
+git push
+```
+
 ### El sitio no se despliega
 1. Verifica que GitHub Actions esté habilitado
 2. Revisa los logs en la pestaña Actions
 3. Asegúrate de que el repositorio sea público
+4. Confirma que existe el archivo `package-lock.json`
 
 ### Errores de build
 1. Verifica que todas las dependencias estén en `package.json`
 2. Revisa que no haya errores de TypeScript
 3. Ejecuta `npm run build` localmente para probar
+4. Asegúrate de que el `package-lock.json` esté en el repositorio
 
 ### Enlaces rotos
 1. Verifica que `next.config.js` tenga la configuración correcta
