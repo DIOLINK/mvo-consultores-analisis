@@ -78,6 +78,23 @@ git commit -m "Add package-lock.json"
 git push
 ```
 
+### Error: "Cannot find module 'tailwindcss'"
+**Solución:** Instala las dependencias de Tailwind CSS:
+```bash
+npm install tailwindcss postcss autoprefixer @tailwindcss/typography
+git add package.json package-lock.json
+git commit -m "Add Tailwind CSS dependencies"
+git push
+```
+
+### Error: "The `prose` class does not exist"
+**Solución:** Asegúrate de que el plugin de typography esté configurado en `tailwind.config.js`:
+```javascript
+plugins: [
+  require('@tailwindcss/typography'),
+],
+```
+
 ### El sitio no se despliega
 1. Verifica que GitHub Actions esté habilitado
 2. Revisa los logs en la pestaña Actions
@@ -89,6 +106,7 @@ git push
 2. Revisa que no haya errores de TypeScript
 3. Ejecuta `npm run build` localmente para probar
 4. Asegúrate de que el `package-lock.json` esté en el repositorio
+5. Si ves error de "prose class does not exist", instala `@tailwindcss/typography`
 
 ### Enlaces rotos
 1. Verifica que `next.config.js` tenga la configuración correcta
