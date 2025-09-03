@@ -32,13 +32,20 @@ git push -u origin main
 3. Scroll hacia abajo hasta **Pages** (sidebar izquierdo)
 4. En **Source**, selecciona **GitHub Actions**
 5. El workflow ya está configurado en `.github/workflows/deploy.yml`
+6. **IMPORTANTE:** Asegúrate de que el repositorio tenga permisos de Pages habilitados
 
-### 5. Activar GitHub Actions
+### 5. Configurar Permisos de Actions
+1. Ve a **Settings** → **Actions** → **General**
+2. En **Workflow permissions**, selecciona **Read and write permissions**
+3. Marca **Allow GitHub Actions to create and approve pull requests**
+4. Guarda los cambios
+
+### 6. Activar GitHub Actions
 1. Ve a la pestaña **Actions** en tu repositorio
 2. Deberías ver el workflow "Deploy to GitHub Pages"
 3. Si no se ejecuta automáticamente, haz un pequeño cambio y push
 
-### 6. Acceder al Sitio
+### 7. Acceder al Sitio
 Una vez desplegado, tu sitio estará disponible en:
 ```
 https://[TU-USUARIO].github.io/[NOMBRE-REPO]/
@@ -95,11 +102,19 @@ plugins: [
 ],
 ```
 
+### Error: "Write access to repository not granted" o "403 Forbidden"
+**Solución:** Configura los permisos correctos:
+1. Ve a **Settings** → **Actions** → **General**
+2. En **Workflow permissions**, selecciona **Read and write permissions**
+3. Marca **Allow GitHub Actions to create and approve pull requests**
+4. Guarda los cambios
+
 ### El sitio no se despliega
 1. Verifica que GitHub Actions esté habilitado
 2. Revisa los logs en la pestaña Actions
 3. Asegúrate de que el repositorio sea público
 4. Confirma que existe el archivo `package-lock.json`
+5. Verifica que Pages esté configurado para usar **GitHub Actions**
 
 ### Errores de build
 1. Verifica que todas las dependencias estén en `package.json`
