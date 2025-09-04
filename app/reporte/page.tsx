@@ -131,14 +131,12 @@ El sitio web **mvoconsultores.com.ar** presenta una infraestructura tecnológica
 ## 💰 ESTIMACIÓN DE COSTOS DE MANTENIMIENTO ACTUAL
 
 ### **Costos Mensuales Estimados:**
-- **Hosting OVH:** $15-30 USD/mes
-- **Dominio:** $10-15 USD/año
-- **Mantenimiento:** $200-500 USD/mes (desarrollador)
+- **Dominio:** $10-15 AR$/año
+- **Mantenimiento:** $20.000-50.000 AR$/mes (desarrollador)
 
 ### **Costos Anuales:**
-- **Total Hosting:** $200-400 USD/año
-- **Mantenimiento:** $2,400-6,000 USD/año
-- **Actualizaciones:** $1,000-3,000 USD/año
+- **Mantenimiento:** $24.400-64.4000 AR$/año
+- **Actualizaciones:** $1.000-3.000 AR$/año
 
 ---
 

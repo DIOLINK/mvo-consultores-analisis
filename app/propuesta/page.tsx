@@ -1,7 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
-const propuestaContent = `# 🚀 PROPUESTA DE MIGRACIÓN A REACT
+const propuestaContent = `# 🚀 PROPUESTA DE MIGRACIÓN A REACT - NEXT.JS 14
 ## Sitio Web: mvoconsultores.com.ar
 
 **Fecha de Propuesta:** ${new Date().toLocaleDateString('es-ES')}  
@@ -18,7 +18,7 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 
 - ⚡ **300% mejora en performance**
 - 🔒 **Seguridad empresarial**
-- 📱 **Experiencia móvil nativa**
+- 📱 **Experiencia móvil**
 - 🎯 **SEO optimizado**
 - 💰 **Reducción 40% costos mantenimiento**
 
@@ -34,26 +34,23 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 ✅ Next.js 14 (SSR/SSG)
 ✅ Tailwind CSS (diseño moderno)
 ✅ Framer Motion (animaciones)
-✅ React Query (gestión estado)
+✅ Zustand (gestión estado)
 ✅ React Hook Form (formularios)
 \`\`\`
 
 #### **Backend (API REST)**
 \`\`\`
-✅ PHP 8+ con Laravel/Symfony
-✅ API REST endpoints
+✅ API REST endpoints ([fastAPI](https://fastapi.tiangolo.com/)/[Django](https://www.djangoproject.com/))
 ✅ JWT Authentication
-✅ MySQL/PostgreSQL
-✅ Redis (caché)
+✅ NOSQL
 \`\`\`
 
 #### **Infraestructura**
 \`\`\`
 ✅ OVH VPS (mantener)
-✅ Docker containers
 ✅ CI/CD con GitHub Actions
 ✅ SSL/TLS automático
-✅ CDN Cloudflare
+✅ CDN Cloudflare [Netlify](https://www.netlify.com/pricing/)
 \`\`\`
 
 ---
@@ -86,7 +83,7 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 #### **Semana 4-5: Páginas Principales**
 - [ ] Homepage con hero section
 - [ ] Navegación responsive
-- [ ] Footer con información contacto
+- [ ] Footer con información de contacto
 - [ ] Páginas "Nosotros" y "Servicios"
 
 #### **Semana 6-7: Funcionalidades Dinámicas**
@@ -134,26 +131,25 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 
 | Fase | Descripción | Horas | Costo/Hora | Subtotal |
 |------|-------------|-------|------------|----------|
-| **Fase 1** | Preparación y Setup | 40h | $75 | $3,000 |
-| **Fase 2** | Desarrollo Core | 120h | $75 | $9,000 |
-| **Fase 3** | Testing y Deploy | 30h | $75 | $2,250 |
-| **TOTAL DESARROLLO** | | **190h** | | **$14,250** |
+| **Fase 1** | Preparación y Setup | 80h | $5.500 | $440.000 |
+| **Fase 2** | Desarrollo Core | 120h | $5.500 | $660.000 |
+| **Fase 3** | Testing y Deploy | 30h | $5.500 | $165.000 |
+| **TOTAL DESARROLLO** | | **230** | | **$1.265.000** |
 
 ### **SERVICIOS ADICIONALES**
 
 | Servicio | Descripción | Costo |
 |----------|-------------|-------|
-| **Diseño UX/UI** | Rediseño completo | $2,500 |
-| **SEO Setup** | Optimización inicial | $1,000 |
-| **SSL + CDN** | Configuración seguridad | $500 |
-| **Capacitación** | Training equipo | $1,000 |
-| **Soporte 3 meses** | Mantenimiento post-lanzamiento | $2,000 |
+| **Diseño UX/UI** | Rediseño completo | $350.000 |
+| **SEO Setup** | Optimización inicial | $252.900 |
+| **SSL + CDN** | Configuración seguridad | $240.000 |
+| **TOTAL SERVICIOS ADICIONALES** | | | **$842.900** |
+
 
 ### **COSTOS DE INFRAESTRUCTURA (Anual)**
 
 | Servicio | Costo Mensual | Costo Anual |
 |----------|---------------|-------------|
-| **OVH VPS** | $25 | $300 |
 | **Cloudflare CDN** | $20 | $240 |
 | **Dominio + SSL** | $2 | $24 |
 | **Backup Storage** | $10 | $120 |
@@ -164,20 +160,14 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 ## 📊 RESUMEN FINANCIERO
 
 ### **INVERSIÓN INICIAL**
-- **Desarrollo:** $14,250
-- **Servicios Adicionales:** $7,000
-- **TOTAL INICIAL:** **$21,250**
+- **Desarrollo:** $1.265.000
+- **Servicios Adicionales:** $842.900
+- **TOTAL INICIAL:** **$1.717.900**
 
 ### **COSTOS ANUALES**
-- **Infraestructura:** $684
-- **Mantenimiento:** $2,400 (4h/mes)
-- **TOTAL ANUAL:** **$3,084**
-
-### **ROI ESPERADO**
-- **Reducción mantenimiento:** 40% ($1,200/año)
-- **Mejora conversiones:** 25% (estimado)
-- **Reducción tiempo carga:** 60%
-- **Payback period:** 18 meses
+- **Infraestructura:** $684.000
+- **Mantenimiento:** $24.400 (4h/mes)
+- **TOTAL ANUAL:** **$924.400**
 
 ---
 
@@ -234,7 +224,6 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 - 📞 **Soporte técnico:** 3 meses incluido
 - 🔧 **Mantenimiento:** 4h/mes
 - 📚 **Documentación:** Completa
-- 🎓 **Capacitación:** 8h training
 
 ---
 
@@ -243,12 +232,11 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 ### **PARA APROBACIÓN:**
 1. **Revisión propuesta** - 1 semana
 2. **Firma contrato** - 3 días
-3. **Pago inicial** - 30% ($6,375)
+3. **Pago inicial** - 30% ($212.500)
 4. **Inicio proyecto** - Inmediato
 
 ### **CONTACTO:**
-- **Email:** roger@desarrollador.com
-- **Teléfono:** +54 11 1234-5678
+- **Email:** roger.bogado.coverzola@gmail.com
 - **Reunión:** Disponible para presentación
 
 ---
