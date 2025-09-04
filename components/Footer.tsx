@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-800 dark:bg-gray-900 text-white py-8 mt-16 transition-colors duration-300">
@@ -15,11 +17,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Desarrollador</h3>
             <div className="text-gray-300 dark:text-gray-400 text-sm space-y-2">
-              <p><strong>Roger</strong></p>
+              <Link href="https://github.com/DIOLINK" target="_blank" className="block hover:text-blue-400 transition-colors"><p><strong>Roger Coverzola Bogado</strong></p></Link>
               <p>Desarrollador Full Stack</p>
               <p>Especialista en React & Next.js</p>
-              <p>Email: roger@desarrollador.com</p>
-              <p>Teléfono: +54 11 1234-5678</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 dark:border-gray-600 mt-8 pt-6 text-center">
           <p className="text-gray-400 dark:text-gray-500 text-sm">
-            © 2024 Análisis Técnico MVO Consultores. Desarrollado por Roger.
+            © 2024 Análisis Técnico MVO Consultores. Desarrollado por Roger Coverzola Bogado.
           </p>
         </div>
       </div>
