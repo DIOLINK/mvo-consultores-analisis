@@ -28,7 +28,7 @@ body {
 
 /* Estilos para el contenido markdown */
 .markdown-content {
-  @apply prose prose-gray dark:prose-invert max-w-none;
+  @apply prose prose-gray dark:prose-invert max-w-none overflow-x-auto;
 }
 
 .markdown-content h1 {
