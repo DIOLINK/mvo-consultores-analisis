@@ -29,32 +29,30 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 ### **STACK TECNOLÓGICO MODERNO**
 
 #### **Frontend (React Ecosystem)**
-\`\`\`
 
-✅ React 18+ con TypeScript
-✅ Next.js 14 (SSR/SSG)
-✅ Tailwind CSS (diseño moderno)
-✅ Framer Motion (animaciones)
-✅ Zustand (gestión estado)
-✅ React Hook Form (formularios)
-\`\`\`
+
+- ✅ React 18+ con TypeScript
+- ✅ Next.js 14 (SSR/SSG)
+- ✅ Tailwind CSS (diseño moderno)
+- ✅ Framer Motion (animaciones)
+- ✅ Zustand (gestión estado)
+- ✅ React Hook Form (formularios)
+
 
 #### **Backend (API REST)**
-\`\`\`
 
-✅ API REST endpoints [fastAPI](https://fastapi.tiangolo.com/) / [Django](https://www.djangoproject.com/)
-✅ JWT Authentication
-✅ NOSQL
-\`\`\`
+- ✅ API REST endpoints ([fastAPI](https://fastapi.tiangolo.com/) / [Django](https://www.djangoproject.com/))
+- ✅ JWT Authentication
+- ✅ NOSQL
+
 
 #### **Infraestructura**
-\`\`\`
 
-✅ OVH VPS (mantener)
-✅ CI/CD con GitHub Actions
-✅ SSL/TLS automático
-✅ CDN Cloudflare [Netlify](https://www.netlify.com/pricing/)
-\`\`\`
+- ✅ OVH VPS (mantener)
+- ✅ CI/CD con GitHub Actions
+- ✅ SSL/TLS automático
+- ✅ CDN Cloudflare [Netlify](https://www.netlify.com/pricing/)
+
 
 ---
 
