@@ -153,8 +153,8 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 
 | Servicio | Costo Mensual | Costo Anual |
 |----------|---------------|-------------|
-| **Cloudflare CDN** | $9-15 USD/mes | $108-180 USD/año |
-| **Dominio + SSL** | $2-4 USD/mes | $24-48 USD/año |
+| **Cloudflare CDN** | $0-15 USD/mes | $0-180 USD/año |
+| **Dominio + SSL** | $1-4 USD/mes | $12-48 USD/año |
 | **Backup Storage** | $10 USD/mes | $120 USD/año |
 | **TOTAL INFRAESTRUCTURA** | **$23-37 USD/mes** | **$276-444 USD/año** |
 
