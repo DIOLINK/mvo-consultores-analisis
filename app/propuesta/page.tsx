@@ -30,6 +30,7 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 
 #### **Frontend (React Ecosystem)**
 \`\`\`
+
 ✅ React 18+ con TypeScript
 ✅ Next.js 14 (SSR/SSG)
 ✅ Tailwind CSS (diseño moderno)
@@ -40,13 +41,15 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 
 #### **Backend (API REST)**
 \`\`\`
-✅ API REST endpoints ([fastAPI](https://fastapi.tiangolo.com/)/[Django](https://www.djangoproject.com/))
+
+✅ API REST endpoints [fastAPI](https://fastapi.tiangolo.com/) / [Django](https://www.djangoproject.com/)
 ✅ JWT Authentication
 ✅ NOSQL
 \`\`\`
 
 #### **Infraestructura**
 \`\`\`
+
 ✅ OVH VPS (mantener)
 ✅ CI/CD con GitHub Actions
 ✅ SSL/TLS automático
@@ -143,17 +146,17 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 | **Diseño UX/UI** | Rediseño completo | $350.000 |
 | **SEO Setup** | Optimización inicial | $252.900 |
 | **SSL + CDN** | Configuración seguridad | $240.000 |
-| **TOTAL SERVICIOS ADICIONALES** | | | **$842.900** |
+| **TOTAL SERVICIOS ADICIONALES** |  | **$842.900** |
 
 
 ### **COSTOS DE INFRAESTRUCTURA (Anual)**
 
 | Servicio | Costo Mensual | Costo Anual |
 |----------|---------------|-------------|
-| **Cloudflare CDN** | $20 | $240 |
-| **Dominio + SSL** | $2 | $24 |
-| **Backup Storage** | $10 | $120 |
-| **TOTAL INFRAESTRUCTURA** | **$57** | **$684** |
+| **Cloudflare CDN** | $9-15 USD/mes | $108-180 USD/año |
+| **Dominio + SSL** | $2-4 USD/mes | $24-48 USD/año |
+| **Backup Storage** | $10 USD/mes | $120 USD/año |
+| **TOTAL INFRAESTRUCTURA** | **$23-37 USD/mes** | **$276-444 USD/año** |
 
 ---
 
