@@ -26,32 +26,32 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 ### **STACK TECNOLÓGICO MODERNO**
 
 #### **Frontend (React Ecosystem)**
-```
+
 ✅ React 18+ con TypeScript
 ✅ Next.js 14 (SSR/SSG)
 ✅ Tailwind CSS (diseño moderno)
 ✅ Framer Motion (animaciones)
 ✅ React Query (gestión estado)
 ✅ React Hook Form (formularios)
-```
+
 
 #### **Backend (API REST)**
-```
+
 ✅ PHP 8+ con Laravel/Symfony
 ✅ API REST endpoints
 ✅ JWT Authentication
 ✅ MySQL/PostgreSQL
 ✅ Redis (caché)
-```
+
 
 #### **Infraestructura**
-```
+
 ✅ OVH VPS (mantener)
 ✅ Docker containers
 ✅ CI/CD con GitHub Actions
 ✅ SSL/TLS automático
 ✅ CDN Cloudflare
-```
+
 
 ---
 
@@ -244,8 +244,7 @@ Proponemos la migración del sitio web **mvoconsultores.com.ar** desde tecnolog�
 4. **Inicio proyecto** - Inmediato
 
 ### **CONTACTO:**
-- **Email:** contacto@desarrollador.com
-- **Teléfono:** +54 11 1234-5678
+- **Email:** roger.bogado.coverzola@gmail.com
 - **Reunión:** Disponible para presentación
 
 ---
